@@ -1,0 +1,64 @@
+.make-an-appointment {
+    margin: 32px 16px 0;
+    box-shadow: none;
+}
+
+.make-an-appointment__container {
+    padding: 24px 12px;
+    border: 1px solid var(--border-light-grey);
+    border-radius: 4px;
+}
+
+.make-an-appointment__info-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.make-an-appointment__info-container .info-container__element {
+    width: 120px;
+}
+
+.make-an-appointment__divider {
+    width: 2px;
+    margin: 0 24px;
+    border-radius: 2px;
+    background: var(--divider-color);
+}
+
+.make-an-appointment__info-container .info-container__text-16 {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-400);
+    line-height: var(--line-height-24);
+    color: var(--text-gray);
+    margin-bottom: 8px;
+}
+
+.make-an-appointment__info-container .info-container__text-20_bold {
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-700);
+    line-height: var(--line-height-24);
+    color: var(--text-black);
+}
+
+.make-an-appointment__action-button {
+    margin-top: 16px;
+    width: 100%;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-600);
+    line-height: var(--line-height-16);
+    background: var(--sky-blue);
+    color: var(--text-white);
+    border: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 374px) {
+
+    .make-an-appointment__action-button {
+        font-size: var(--font-size-10);
+    }
+}

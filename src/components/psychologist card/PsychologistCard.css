@@ -1,0 +1,23 @@
+.psychologist-card-container {
+    padding: 0 45px;
+}
+
+.psychologist-card__column {
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text-black);
+}
+
+.psychologist-card__row_header {
+    margin-bottom: 16px;
+}
+
+.psychologist-card__column .session-duration__p_gray {
+    color: var(--text-gray);
+    margin-bottom: 6px;
+}
+
+

@@ -1,0 +1,8 @@
+.container {
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.content-container {
+    padding: 80px 0 40px;
+}
